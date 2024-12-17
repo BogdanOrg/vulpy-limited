@@ -3,6 +3,7 @@ from pathlib import Path
 import click
 import requests
 
+
 api_key_file = Path('/tmp/supersecret.txt')
 
 @click.command()
