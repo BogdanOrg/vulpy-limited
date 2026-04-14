@@ -20,6 +20,8 @@ def db_init_users():
         c.execute("INSERT INTO users (username, password, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%d', '%d', '%s')" %(u, p, 0, 0, ''))
 
     conn.commit()
+
+    
     conn.close()
 
 
