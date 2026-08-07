@@ -16,5 +16,5 @@ def cmd_api_client(username):
     print(r.text)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': #TODO
     cmd_api_client()
